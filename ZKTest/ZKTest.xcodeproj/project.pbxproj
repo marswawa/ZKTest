@@ -16,6 +16,7 @@
 		A55C0D401B478DAC0096E40F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A55C0D3E1B478DAC0096E40F /* LaunchScreen.xib */; };
 		A55C0D4C1B478DAC0096E40F /* ZKTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A55C0D4B1B478DAC0096E40F /* ZKTestTests.m */; };
 		A55C0D571B4791590096E40F /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A55C0D561B4791590096E40F /* Person.m */; };
+		A55C0D5A1B4793B10096E40F /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = A55C0D591B4793B10096E40F /* Dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,8 @@
 		A55C0D4B1B478DAC0096E40F /* ZKTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKTestTests.m; sourceTree = "<group>"; };
 		A55C0D551B4791590096E40F /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		A55C0D561B4791590096E40F /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		A55C0D581B4793B10096E40F /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		A55C0D591B4793B10096E40F /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,8 @@
 				A55C0D371B478DAC0096E40F /* ViewController.m */,
 				A55C0D551B4791590096E40F /* Person.h */,
 				A55C0D561B4791590096E40F /* Person.m */,
+				A55C0D581B4793B10096E40F /* Dog.h */,
+				A55C0D591B4793B10096E40F /* Dog.m */,
 				A55C0D391B478DAC0096E40F /* Main.storyboard */,
 				A55C0D3C1B478DAC0096E40F /* Images.xcassets */,
 				A55C0D3E1B478DAC0096E40F /* LaunchScreen.xib */,
@@ -227,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A55C0D5A1B4793B10096E40F /* Dog.m in Sources */,
 				A55C0D321B478DAC0096E40F /* AppDelegate.m in Sources */,
 				A55C0D2F1B478DAC0096E40F /* main.m in Sources */,
 				A55C0D571B4791590096E40F /* Person.m in Sources */,
