@@ -15,6 +15,7 @@
 		A55C0D3D1B478DAC0096E40F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A55C0D3C1B478DAC0096E40F /* Images.xcassets */; };
 		A55C0D401B478DAC0096E40F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A55C0D3E1B478DAC0096E40F /* LaunchScreen.xib */; };
 		A55C0D4C1B478DAC0096E40F /* ZKTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A55C0D4B1B478DAC0096E40F /* ZKTestTests.m */; };
+		A55C0D571B4791590096E40F /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A55C0D561B4791590096E40F /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		A55C0D451B478DAC0096E40F /* ZKTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZKTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A55C0D4A1B478DAC0096E40F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A55C0D4B1B478DAC0096E40F /* ZKTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKTestTests.m; sourceTree = "<group>"; };
+		A55C0D551B4791590096E40F /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		A55C0D561B4791590096E40F /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 				A55C0D311B478DAC0096E40F /* AppDelegate.m */,
 				A55C0D361B478DAC0096E40F /* ViewController.h */,
 				A55C0D371B478DAC0096E40F /* ViewController.m */,
+				A55C0D551B4791590096E40F /* Person.h */,
+				A55C0D561B4791590096E40F /* Person.m */,
 				A55C0D391B478DAC0096E40F /* Main.storyboard */,
 				A55C0D3C1B478DAC0096E40F /* Images.xcassets */,
 				A55C0D3E1B478DAC0096E40F /* LaunchScreen.xib */,
@@ -224,6 +229,7 @@
 			files = (
 				A55C0D321B478DAC0096E40F /* AppDelegate.m in Sources */,
 				A55C0D2F1B478DAC0096E40F /* main.m in Sources */,
+				A55C0D571B4791590096E40F /* Person.m in Sources */,
 				A55C0D381B478DAC0096E40F /* ViewController.m in Sources */,
 				A55C0D351B478DAC0096E40F /* ZKTest.xcdatamodeld in Sources */,
 			);
